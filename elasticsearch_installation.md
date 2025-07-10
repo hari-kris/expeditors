@@ -18,20 +18,20 @@ This guide provides step-by-step instructions to download and start Elasticsearc
   ```
 
 ## 2. Download Elasticsearch
-
+https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-9.0.3-linux-x86_64.tar.gz
 - Visit the [Elasticsearch downloads page](https://www.elastic.co/downloads/elasticsearch) or use `wget` to download:
 
   ```bash
-  wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-8.14.0-linux-x86_64.tar.gz
+  wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-9.0.3-linux-x86_64.tar.gz
   ```
 
-  *(Replace `8.14.0` with the latest version if needed)*
+  *(Replace `9.0.3` with the latest version if needed)*
 
 ## 3. Extract the Archive
 
 ```bash
-tar -xzf elasticsearch-8.14.0-linux-x86_64.tar.gz
-cd elasticsearch-8.14.0
+tar -xzf elasticsearch-9.0.3-linux-x86_64.tar.gz
+cd elasticsearch-9.0.3
 ```
 
 ## 4. Start Elasticsearch
