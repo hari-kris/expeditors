@@ -1,0 +1,15 @@
+cluster.name: lab-session
+node.name: node-1
+network.host: 192.168.1.6
+http.port: 9200
+transport.port: 9300
+
+discovery.seed_hosts:  ["192.168.1.5", "192.168.1.6"]
+cluster.initial_master_nodes: ["node-1", "node-2"]
+
+xpack.security.enabled: true
+xpack.security.transport.ssl.enabled: true
+xpack.security.transport.ssl.verification_mode: certificate
+xpack.security.transport.ssl.key: /etc/elasticsearch/certs/node1.key
+xpack.security.transport.ssl.certificate: /etc/elasticsearch/certs/node1.crt
+xpack.security.transport.ssl.certificate_authorities: ["/etc/elasticsearch/certs/ca.crt"]
