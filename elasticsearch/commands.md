@@ -1,5 +1,5 @@
 # Generate TLS Certificates
-./bin/elasticsearch-certutil ca --pem --out elastic-ca.zip --silent
+/usr/share/elasticsearch/bin/elasticsearch-certutil ca --pem --out elastic-ca.zip --silent
 
 ./bin/elasticsearch-certutil cert --pem --in /data/elasticsearch-9.0.3-linux-x86_64/elasticsearch-9.0.3/instance.yml --out certs.zip --silent --self
 -signed
