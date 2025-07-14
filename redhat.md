@@ -1,6 +1,10 @@
 https://www.elastic.co/downloads/past-releases/elasticsearch-8-13-4
 
 
+adduser existinguser sudo
+
+
+
 Configuration Files:
 The main configuration file, elasticsearch.yml, is located at /etc/elasticsearch/elasticsearch.yml. 
 Binary Files:
