@@ -1,1 +1,2 @@
-https://docs.google.com/presentation/d/1fBOBhCHz3_NxqiIjVp7QFuIN3MuXBU_Xsupe8BPlthQ/edit
+- https://docs.google.com/presentation/d/1fBOBhCHz3_NxqiIjVp7QFuIN3MuXBU_Xsupe8BPlthQ/edit?usp=sharing - Module 1
+- https://docs.google.com/presentation/d/1vv-vXv8Wd9apbX1TixiGCA6IJon2_ECP2xMaMpSxAr8/edit?usp=sharing - Module -2
