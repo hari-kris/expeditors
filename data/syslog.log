@@ -1,0 +1,74 @@
+Jul 17 12:55:06 jarvis systemd[754]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jul 17 12:55:06 jarvis systemd[754]: Listening on debconf communication socket.
+Jul 17 12:55:06 jarvis systemd[754]: Listening on REST API socket for snapd user session agent.
+Jul 17 12:55:06 jarvis systemd[754]: Listening on D-Bus User Message Bus Socket.
+Jul 17 12:55:06 jarvis systemd[754]: Reached target Sockets.
+Jul 17 12:55:06 jarvis systemd[754]: Reached target Basic System.
+Jul 17 12:55:06 jarvis systemd[754]: Reached target Main User Target.
+Jul 17 12:55:06 jarvis systemd[754]: Startup finished in 220ms.
+Jul 17 12:55:06 jarvis systemd[1]: Started User Manager for UID 1000.
+Jul 17 12:55:06 jarvis systemd[1]: Started Session 1 of User jarvis.
+Jul 17 12:55:38 jarvis systemd[1]: systemd-timedated.service: Deactivated successfully.
+Jul 17 12:55:43 jarvis kernel: [   48.543524] hv_balloon: Max. dynamic memory size: 8096 MB
+Jul 17 12:56:03 jarvis systemd[1]: Created slice User Slice of UID 0.
+Jul 17 12:56:03 jarvis systemd[1]: Starting User Runtime Directory /run/user/0...
+Jul 17 12:56:03 jarvis systemd[1]: Finished User Runtime Directory /run/user/0.
+Jul 17 12:56:03 jarvis systemd[1]: Starting User Manager for UID 0...
+Jul 17 12:56:03 jarvis systemd[1018]: Queued start job for default target Main User Target.
+Jul 17 12:56:03 jarvis systemd[1018]: Created slice User Application Slice.
+Jul 17 12:56:03 jarvis systemd[1018]: Reached target Paths.
+Jul 17 12:56:03 jarvis systemd[1018]: Reached target Timers.
+Jul 17 12:56:03 jarvis systemd[1018]: Starting D-Bus User Message Bus Socket...
+Jul 17 12:56:03 jarvis systemd[1018]: Listening on GnuPG network certificate management daemon.
+Jul 17 12:56:03 jarvis systemd[1018]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 17 12:56:03 jarvis systemd[1018]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 17 12:56:03 jarvis systemd[1018]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jul 17 12:56:03 jarvis systemd[1018]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jul 17 12:56:03 jarvis systemd[1018]: Listening on debconf communication socket.
+Jul 17 12:56:03 jarvis systemd[1018]: Listening on REST API socket for snapd user session agent.
+Jul 17 12:56:03 jarvis systemd[1018]: Listening on D-Bus User Message Bus Socket.
+Jul 17 12:56:03 jarvis systemd[1018]: Reached target Sockets.
+Jul 17 12:56:03 jarvis systemd[1018]: Reached target Basic System.
+Jul 17 12:56:03 jarvis systemd[1018]: Reached target Main User Target.
+Jul 17 12:56:03 jarvis systemd[1018]: Startup finished in 247ms.
+Jul 17 12:56:03 jarvis systemd[1]: Started User Manager for UID 0.
+Jul 17 12:56:03 jarvis systemd[1]: Started Session c1 of User root.
+Jul 17 12:56:22 jarvis systemd[1]: session-c1.scope: Deactivated successfully.
+Jul 17 12:56:22 jarvis systemd[1]: session-c1.scope: Consumed 1.572s CPU time.
+Jul 17 12:56:32 jarvis systemd[1]: Stopping User Manager for UID 0...
+Jul 17 12:56:32 jarvis systemd[1018]: Stopped target Main User Target.
+Jul 17 12:56:32 jarvis systemd[1018]: Stopped target Basic System.
+Jul 17 12:56:32 jarvis systemd[1018]: Stopped target Paths.
+Jul 17 12:56:32 jarvis systemd[1018]: Stopped target Sockets.
+Jul 17 12:56:32 jarvis systemd[1018]: Stopped target Timers.
+Jul 17 12:56:32 jarvis systemd[1018]: Closed D-Bus User Message Bus Socket.
+Jul 17 12:56:32 jarvis systemd[1018]: Closed GnuPG network certificate management daemon.
+Jul 17 12:56:32 jarvis systemd[1018]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jul 17 12:56:32 jarvis systemd[1018]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jul 17 12:56:32 jarvis systemd[1018]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jul 17 12:56:32 jarvis systemd[1018]: Closed GnuPG cryptographic agent and passphrase cache.
+Jul 17 12:56:32 jarvis systemd[1018]: Closed debconf communication socket.
+Jul 17 12:56:32 jarvis systemd[1018]: Closed REST API socket for snapd user session agent.
+Jul 17 12:56:32 jarvis systemd[1018]: Removed slice User Application Slice.
+Jul 17 12:56:32 jarvis systemd[1018]: Reached target Shutdown.
+Jul 17 12:56:32 jarvis systemd[1018]: Finished Exit the Session.
+Jul 17 12:56:32 jarvis systemd[1018]: Reached target Exit the Session.
+Jul 17 12:56:32 jarvis systemd[1]: user@0.service: Deactivated successfully.
+Jul 17 12:56:32 jarvis systemd[1]: Stopped User Manager for UID 0.
+Jul 17 12:56:32 jarvis systemd[1]: Stopping User Runtime Directory /run/user/0...
+Jul 17 12:56:32 jarvis systemd[1]: mnt-wslg-run-user-0.mount: Deactivated successfully.
+Jul 17 12:56:32 jarvis systemd[1]: run-user-0.mount: Deactivated successfully.
+Jul 17 12:56:33 jarvis systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+Jul 17 12:56:33 jarvis systemd[1]: Stopped User Runtime Directory /run/user/0.
+Jul 17 12:56:33 jarvis systemd[1]: Removed slice User Slice of UID 0.
+Jul 17 12:56:33 jarvis systemd[1]: user-0.slice: Consumed 1.891s CPU time.
+Jul 17 12:56:49 jarvis systemd[1]: postgresql.service: Deactivated successfully.
+Jul 17 12:56:49 jarvis systemd[1]: Stopped PostgreSQL RDBMS.
+Jul 17 12:56:49 jarvis systemd[1]: Stopping PostgreSQL RDBMS...
+Jul 17 12:56:49 jarvis systemd[1]: Stopping PostgreSQL Cluster 14-main...
+Jul 17 12:56:49 jarvis systemd[1]: postgresql@14-main.service: Deactivated successfully.
+Jul 17 12:56:49 jarvis systemd[1]: Stopped PostgreSQL Cluster 14-main.
+Jul 17 12:56:49 jarvis systemd[1]: Starting PostgreSQL Cluster 14-main...
+Jul 17 12:56:52 jarvis systemd[1]: Started PostgreSQL Cluster 14-main.
+Jul 17 12:56:52 jarvis systemd[1]: Starting PostgreSQL RDBMS...
+Jul 17 12:56:52 jarvis systemd[1]: Finished PostgreSQL RDBMS.
