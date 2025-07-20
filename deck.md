@@ -3,5 +3,9 @@
 - https://docs.google.com/presentation/d/1Yc83hv6-Qiqsz9LnEKyMEQz3m8LoOHtDPjqA-LAiDeQ/edit?usp=sharing - Module - 3
 - https://docs.google.com/presentation/d/1PWDokoNMN-T27vg0ef0K0cV2wnWs48O2ES40FdWZ-xs/edit?usp=sharing - Module - 4
 - https://drive.google.com/file/d/1KkejXv533-87fOsbE9KLYkmOp0Lki6_e/view?usp=sharing - Module - 5
-- https://drive.google.com/file/d/1kv0PthII7RzH5h0IBtTDNUFLCyT-NcL9/view?usp=drive_link - Module -5a
+- https://drive.google.com/file/d/1kv0PthII7RzH5h0IBtTDNUFLCyT-NcL9/view?usp=drive_link - Module -6
 - https://drive.google.com/file/d/1MFWvXRpForBFRrgvMv6_RNmDPIcTfL2J/view?usp=sharing - Module - 7
+- https://docs.google.com/presentation/d/1409cHGJKFOYtASnbC0di3dzv9ZwYtMDQsDYZMJJ0UgU/edit?usp=sharing  - Module - 9
+- https://docs.google.com/presentation/d/1vNWgXuNFzRbVN1AQjXXc4tUguBpEFQpDmT0Ma5MgSPM/edit?usp=sharing - Module - 10
+- https://docs.google.com/presentation/d/1LLbVGeXamAd4QjpSFV-tDAtRN3B2PMgNZuyqLmFHrIk/edit?usp=sharing - Module - 11
+- https://docs.google.com/presentation/d/1wBu9BaQDKCa3JUAIensGvkAV-1WiUG5FfVgc-LIz_48/edit?usp=sharing - Module - 12
