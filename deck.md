@@ -1,3 +1,4 @@
+- https://docs.google.com/document/d/1ItjhsO0jbq9Fi7qH5xT64SBa8BCqQKo53zrNmntXD3o/edit?usp=sharing
 - https://docs.google.com/presentation/d/1fBOBhCHz3_NxqiIjVp7QFuIN3MuXBU_Xsupe8BPlthQ/edit?usp=sharing - Module - 1
 - https://docs.google.com/presentation/d/1vv-vXv8Wd9apbX1TixiGCA6IJon2_ECP2xMaMpSxAr8/edit?usp=sharing - Module - 2
 - https://docs.google.com/presentation/d/1Yc83hv6-Qiqsz9LnEKyMEQz3m8LoOHtDPjqA-LAiDeQ/edit?usp=sharing - Module - 3
