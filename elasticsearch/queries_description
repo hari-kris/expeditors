@@ -1,0 +1,97 @@
+
+---
+
+## 🔍 **Core Search Queries (Full-Text Search)**
+
+| **Query**             | **Purpose**                             | **Example Use Case**                                      |
+| --------------------- | --------------------------------------- | --------------------------------------------------------- |
+| `match`               | Full-text search with analysis          | Search blog posts by content                              |
+| `multi_match`         | Full-text search across multiple fields | Search “laptop” in `title`, `description`, and `category` |
+| `match_phrase`        | Match exact phrase                      | Find reviews containing the exact phrase "battery life"   |
+| `match_phrase_prefix` | Phrase search with autocomplete         | Search-as-you-type for product names                      |
+| `query_string`        | Full Lucene syntax, multi-field         | Advanced search bar                                       |
+| `simple_query_string` | Safe Lucene syntax (less errors)        | End-user search boxes with logical operators              |
+
+---
+
+## 🎯 **Precise Filtering (Structured Fields)**
+
+| **Query**  | **Purpose**                 | **Example Use Case**                              |
+| ---------- | --------------------------- | ------------------------------------------------- |
+| `term`     | Exact match                 | Filter status = "active"                          |
+| `terms`    | Match any from a list       | Filter category in \["electronics", "appliances"] |
+| `range`    | Range filtering             | Price between 100 and 500                         |
+| `exists`   | Check if a field is present | Documents with a `rating` field                   |
+| `prefix`   | Prefix match                | Names starting with “Sam”                         |
+| `wildcard` | Wildcard matching (slow)    | Search emails ending in `@gmail.com`              |
+| `regexp`   | Regular expression (slow)   | Custom text pattern matching                      |
+
+---
+
+## 🧠 **Advanced and Combined Queries**
+
+| **Query**        | **Purpose**                                  | **Example Use Case**                              |
+| ---------------- | -------------------------------------------- | ------------------------------------------------- |
+| `bool`           | Combine queries with must, should, must\_not | Complex product filtering (AND/OR/NOT)            |
+| `boosting`       | Down-rank certain matches                    | Boost results with “popular” tag, demote old ones |
+| `function_score` | Score customization with math                | Boost based on popularity, recency, or rank       |
+| `dis_max`        | Take best score from multiple queries        | Query across synonyms or multiple strategies      |
+| `constant_score` | Apply filter with fixed score                | Use for fast filtering with no scoring            |
+| `script_score`   | Custom scoring logic via script              | Personalized ranking model                        |
+
+---
+
+## ⚙️ **Aggregation + Filtering Use-Cases (Hybrid Search)**
+
+| **Query**                  | **Purpose**                              | **Example Use Case**                             |
+| -------------------------- | ---------------------------------------- | ------------------------------------------------ |
+| `nested`                   | Search within nested objects             | Product with nested reviews (rating > 4)         |
+| `has_child` / `has_parent` | Parent-child relationship filtering      | Order has customer with country = "India"        |
+| `percolate`                | Reverse search (query matching document) | Alerts system (document triggers stored queries) |
+
+---
+
+## 🧪 Examples
+
+### 🔸 Example 1: Search Product by Name or Description
+
+```json
+{
+  "query": {
+    "multi_match": {
+      "query": "wireless headphones",
+      "fields": ["name", "description"]
+    }
+  }
+}
+```
+
+### 🔸 Example 2: Filter by Category and Price Range
+
+```json
+{
+  "query": {
+    "bool": {
+      "must": [
+        { "term": { "category": "electronics" } },
+        { "range": { "price": { "gte": 1000, "lte": 5000 } } }
+      ]
+    }
+  }
+}
+```
+
+### 🔸 Example 3: Autocomplete Product Name
+
+```json
+{
+  "query": {
+    "match_phrase_prefix": {
+      "name": "sams"
+    }
+  }
+}
+```
+
+---
+
