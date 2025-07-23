@@ -6,6 +6,7 @@
 - https://drive.google.com/file/d/1KkejXv533-87fOsbE9KLYkmOp0Lki6_e/view?usp=sharing - Module - 5
 - https://drive.google.com/file/d/1kv0PthII7RzH5h0IBtTDNUFLCyT-NcL9/view?usp=drive_link - Module -6
 - https://drive.google.com/file/d/1MFWvXRpForBFRrgvMv6_RNmDPIcTfL2J/view?usp=sharing - Module - 7
+- https://docs.google.com/presentation/d/1-7DuDe-Jjw1mt-x5UsNgAMuiDP9SLbM0F5q4uYXubiU/edit?usp=sharing - Module - 8
 - https://docs.google.com/presentation/d/1409cHGJKFOYtASnbC0di3dzv9ZwYtMDQsDYZMJJ0UgU/edit?usp=sharing  - Module - 9
 - https://docs.google.com/presentation/d/1vNWgXuNFzRbVN1AQjXXc4tUguBpEFQpDmT0Ma5MgSPM/edit?usp=sharing - Module - 10
 - https://docs.google.com/presentation/d/1LLbVGeXamAd4QjpSFV-tDAtRN3B2PMgNZuyqLmFHrIk/edit?usp=sharing - Module - 11
