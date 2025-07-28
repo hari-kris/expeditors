@@ -23,7 +23,7 @@ GET kibana_sample_data_ecommerce/_search
 {
   "query": {
     "match": {
-      "product_name": "Men's"
+     "products.product_name": "dress"
     }
   }
 }
@@ -35,7 +35,7 @@ GET kibana_sample_data_ecommerce/_search
 {
   "query": {
     "match_phrase": {
-      "product_name": "Men's shoes"
+      "products.product_name": "Party dress"
     }
   }
 }
@@ -47,7 +47,7 @@ GET kibana_sample_data_ecommerce/_search
 {
   "query": {
     "match_phrase_prefix": {
-      "product_name": "Men's sh"
+      "products.product_name": "Cocktail dress"
     }
   }
 }
