@@ -114,8 +114,8 @@ GET kibana_sample_data_ecommerce/_search
 {
   "query": {
     "query_string": {
-      "default_field": "product_name",
-      "query": "Men's AND Jacket"
+      "default_field": "products.product_name",
+      "query": "dress AND black"
     }
   }
 }
@@ -162,7 +162,7 @@ GET kibana_sample_data_ecommerce/_search
 {
   "query": {
     "term": {
-      "day_of_week.keyword": "Monday"
+      "day_of_week": "Sunday"
     }
   }
 }
@@ -180,7 +180,7 @@ GET kibana_sample_data_ecommerce/_search
   "aggs": {
     "sales_by_day": {
       "terms": {
-        "field": "day_of_week.keyword"
+        "field": "day_of_week"
       }
     }
   }
@@ -189,6 +189,7 @@ GET kibana_sample_data_ecommerce/_search
 
 ### 13. Avg Sale per Category
 ```json
+GET kibana_sample_data_ecommerce/_search
 GET kibana_sample_data_ecommerce/_search
 {
   "size": 0,
@@ -216,7 +217,7 @@ GET kibana_sample_data_ecommerce/_search
   "size": 0,
   "query": {
     "term": {
-      "day_of_week.keyword": "Monday"
+      "day_of_week": "Monday"
     }
   },
   "aggs": {
@@ -313,5 +314,3 @@ GET kibana_sample_data_ecommerce/_search
 ```
 
 ---
-
-Happy Querying! 🚀
